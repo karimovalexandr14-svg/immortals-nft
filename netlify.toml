@@ -1,0 +1,9 @@
+# Статический фронт: весь репозиторий или только корень с index.html
+[build]
+  publish = "."
+  command = "echo skip build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA не обязательна — у вас один index.html в корне
